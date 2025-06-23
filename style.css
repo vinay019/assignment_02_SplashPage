@@ -1,0 +1,77 @@
+#header {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  color: #0000ff;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.left-container {
+  display: flex;
+  padding: 5%;
+  color: #ff0000;
+  font-size: 25px;
+}
+
+.right-container {
+  display: flex;
+  padding: 5%;
+  color: #ff0000;
+  font-size: 25px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  color: #00ff00;
+}
+
+/* li * {
+  font-size: 24;
+  color: #0000ff; Does not work, why?
+}
+
+p * {
+  font-size: 24;
+
+  color: #ff0000; Does not work, why?
+} 
+
+body {
+  background: linear-gradient(#ff0000, #00ff00, #0000ff);
+} */
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-style: italic;
+}
+
+h1:hover {
+  color: #00ff00;
+}
+
+h2:hover {
+  color: #00ff00;
+}
+
+h3:hover {
+  color: #00ff00;
+}
